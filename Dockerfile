@@ -1,5 +1,7 @@
 FROM node:boron
 
+USER node
+
 # Create app directory
 WORKDIR /usr/src/app
 
